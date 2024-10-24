@@ -1,0 +1,19 @@
+.Team {
+    padding: 106px 0 120px 0;
+    background-color: var(--white-color);
+
+}
+
+.team_content_text h6 {
+    color: var(--orange-color);
+    margin-bottom: 0;
+}
+
+.team_content_text h2 {
+    color: var(--blue-gray);
+    margin-bottom: 17px;
+}
+
+.team_card_conatiner {
+    margin-top: 60px;
+}

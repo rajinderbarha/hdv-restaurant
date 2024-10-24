@@ -1,0 +1,21 @@
+.Feedback {
+    padding: 120px 0 126px;
+    background-image: url(../../assets/image/happy_customer_bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Feedback_content_text h6 {
+    color: var(--orange-color);
+    margin-bottom: 0;
+}
+
+.Feedback_content_text h2 {
+    color: var(--white-color);
+    margin-bottom: 17px;
+}
+
+.Feedback_content_text {
+    margin-bottom: 55px;
+}

@@ -1,0 +1,22 @@
+.RestaurantMenu {
+    padding: 115px 0 537px 0;
+    background-image: url(../../assets/image/restaurant_menu_bg_image.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.RestaurantMenu_content h6 {
+    color: var(--orange-red);
+
+}
+
+.RestaurantMenu_content h2 {
+    color: var(--white-color);
+    margin-bottom: 17px;
+}
+
+.all_menus {
+    margin-top: -477px;
+}

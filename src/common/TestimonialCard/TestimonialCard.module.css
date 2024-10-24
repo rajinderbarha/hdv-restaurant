@@ -1,0 +1,44 @@
+.card_container {
+    padding: 46px 30px 36px 30px;
+    background-color: #293146;
+    max-width: 410px;
+}
+
+.card {
+    max-width: 294px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.quotes {
+    /* max-width: 40px; */
+}
+
+.feedback {
+    color: var(--white-color);
+    margin-top: 19px;
+    margin-bottom: 14px;
+}
+
+.profile {
+    margin-top: 28px;
+}
+
+.profile img {
+    width: 60px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+
+}
+
+.profile h6 {
+    font-family: Cormorant;
+    color: var(--white-color);
+    margin-top: 14px;
+    margin-bottom: 7px;
+}
+
+.profile p {
+    color: var(--orange-color);
+    margin-bottom: 0;
+}

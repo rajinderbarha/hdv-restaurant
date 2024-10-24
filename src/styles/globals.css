@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --orange-color: #FF7C57;
+  --white-color: #fff;
+  --dark-grayish-blue: #4D5465;
+  --light-grayish-blue: #848A9A;
+  --blue-gray: #222A3F;
+  --orange-red: #E76F51;
+}
+
+
+@font-face {
+  font-family: "Libre Franklin";
+  src: url(../assets/fonts/Libre_Franklin_Font/Libre_Franklin_Variable_Font.ttf) format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url(../assets/fonts/Cormorant_Font/Cormorant_Variable_Font.ttf) format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url(../assets/fonts/Roboto_Slab_Font/RobotoSlab_Variable_Font.ttf) format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+.custom-container {
+  max-width: 1450px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.outer-spacing {
+  padding: 0 50px;
+}
+
+.body h1 {
+  font-family: Cormorant;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 108.99px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.body h2 {
+  font-family: Cormorant;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.body h4 {
+  font-family: Roboto Slab;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+
+}
+
+.body h5 {
+  font-family: Libre Franklin;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.24px;
+
+}
+
+.body h6 {
+  font-family: Libre Franklin;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+
+}
+
+.body p {
+  font-family: Libre Franklin;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.navbar_btn,
+.common_btn {
+  font-family: Libre Franklin;
+  background-color: var(--orange-color);
+  border: none;
+  color: var(--white-color);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-transform: uppercase;
+}
+
+.navbar_btn {
+
+  padding: 16px 20px;
+}
+
+.common_btn {
+  padding: 20px 30px;
+
+}
+
+.navbar_btn svg,
+.common_btn svg {
+  color: var(--white-color);
+  width: 16px;
+  height: 16px;
+  aspect-ratio: 1 / 1;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+
+
+@media screen and (max-width:1280px) {
+
+  .body h1 {
+    font-size: 80px;
+    line-height: 95px;
+  }
+
+  .body h5 {
+    font-size: 18px;
+    line-height: 20px;
+
+  }
+
+
+}
+
+@media screen and (max-width:1050px) {
+  .body h1 {
+    font-size: 75px;
+    line-height: 90px;
+  }
+
+  .body h5 {
+    font-size: 17px;
+    line-height: 19px;
+
+  }
+
+  .body h2 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+
+}
+
+@media screen and (max-width:767px) {
+
+  .body h1 {
+    font-size: 65px;
+    line-height: 85px;
+  }
+
+  .body h5 {
+    font-size: 18px;
+    line-height: 20px;
+
+  }
+
+  .body h2 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .common_btn {
+    padding: 15px 25px;
+
+  }
+}
+
+@media screen and (max-width:600px) {
+  .outer-spacing {
+    padding: 0 20px;
+  }
+
+  .body h1 {
+    font-size: 55px;
+    line-height: 70px;
+  }
+
+  .body h5 {
+    font-size: 16px;
+    line-height: 19px;
+
+  }
+
+  .body h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+
+
+
+
+
+
+#pills-tab li:has(button.nav-link.active) {
+  border-bottom: 4px solid var(--orange-color) !important;
+}
+
+#pills-tab button.nav-link.active {
+  color: var(--white-color);
+}
+
+/* #pills-tab li:has(button.nav-link.active) {
+  border-bottom: 4px solid var(--orange-color) !important;
+} */
