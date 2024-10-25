@@ -2,7 +2,9 @@
     max-width: 410px;
     width: 100%;
     margin: 0 auto;
+    overflow: hidden;
 }
+
 
 .team_card {
     position: relative;
@@ -20,14 +22,14 @@
     bottom: 0;
     left: 0;
     background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
-    transition: all 0.3s ease-in-out;
-
+    transition: all 0.3s ease;
+    gap: 11px;
 }
 
 .profile_content h4 {
     font-family: Cormorant;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     color: var(--white-color);
 }
 
@@ -38,8 +40,91 @@
     margin-bottom: 0px;
 }
 
-.team_card_conatiner:hover .profile_content {
-    height: 234px;
+
+
+.social_links {
+    gap: 8px;
+}
+
+.social_content {
+    gap: 17px;
+    display: none;
+}
+
+.social_links svg {
+    color: var(--white-color);
+    width: 33px;
+    aspect-ratio: 1 / 1;
+    height: 33px;
+}
+
+.social_links div {
+    padding: 9px;
+    transition: all 0.3s ease;
+    border: 1px solid #3e4658
+}
+
+
+.social_links div:active {
+    transition: all 0.3s ease;
+    background-color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+}
+
+/* .team_card_conatiner:active .profile_content {
+    height: 273px;
     background: #293146;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease;
+}
+
+.team_card_conatiner:active .social_content {
+    display: flex;
+} */
+
+/* @media (hover:hover) and (pointer:fine) { */
+.social_links div:hover {
+    transition: all 0.3s ease;
+    background-color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+}
+
+.team_card_conatiner:hover .profile_content {
+    height: 273px;
+    background: #293146;
+    transition: all 0.3s ease;
+}
+
+.team_card_conatiner:hover .social_content {
+    display: flex;
+}
+
+/* } */
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .social_links svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .social_links div {
+        padding: 6px;
+    }
+
+    .team_card_conatiner:hover .profile_content {
+        height: 233px;
+    }
+
+    .profile_content {
+        padding: 38px 0 31px 0;
+        gap: 10px;
+    }
+
+    .social_content {
+        gap: 14px;
+    }
 }

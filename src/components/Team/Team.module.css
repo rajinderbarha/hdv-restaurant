@@ -17,3 +17,74 @@
 .team_card_conatiner {
     margin-top: 60px;
 }
+
+.top_right_photo {
+    position: absolute;
+    top: -12vw;
+    right: 0;
+    width: 11.5vw;
+    height: auto;
+}
+
+.bottom_left_photo {
+    position: absolute;
+    left: 0;
+    bottom: -94px;
+    width: 14%;
+    height: auto;
+}
+
+.card_div {
+    max-width: fit-content;
+}
+
+.card_div1 {
+    /* margin-left: auto; */
+}
+
+.card_div2 {
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.card_div3 {
+    /* margin-right: auto; */
+}
+
+@media screen and (max-width:1050px) {
+    .top_right_photo {
+        top: -15vw;
+        width: 14.5vw;
+    }
+
+    .bottom_left_photo {
+        bottom: -102px;
+        width: 20%;
+
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .top_right_photo {
+        top: -19vw;
+        width: 18.5vw;
+    }
+
+    .bottom_left_photo {
+        bottom: -106px;
+        width: 23%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .top_right_photo {
+        top: -23vw;
+        width: 20.5vw;
+    }
+
+    .bottom_left_photo {
+        bottom: -71px;
+        width: 29%;
+    }
+}

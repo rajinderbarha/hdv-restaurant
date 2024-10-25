@@ -1,0 +1,26 @@
+.UpcomingEvents {
+    padding: 120px 0;
+    background-color: #FFF9F6;
+    background-image: url(../../assets/image/upcoming_event_bg_image.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.UpcomingEvents_content h6 {
+    color: var(--orange-color);
+    margin-bottom: 0;
+}
+
+.UpcomingEvents_content h2 {
+    color: var(--blue-gray);
+    margin-bottom: 17px;
+}
+
+.UpcomingEvents_card_container {
+    margin-top: 60px;
+}
+
+.card_layout {
+    row-gap: 30px;
+}

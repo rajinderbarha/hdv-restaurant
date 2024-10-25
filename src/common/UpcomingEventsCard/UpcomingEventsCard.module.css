@@ -1,0 +1,136 @@
+.card_date {
+    background-color: #293146;
+    padding: 17px 25px;
+}
+
+.card_date.active {
+    background-color: var(--orange-color);
+
+}
+
+.card_detail {
+    gap: 30px;
+    margin-bottom: 35px;
+}
+
+.card_date h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.09px;
+    color: var(--white-color);
+    margin-bottom: 0;
+
+}
+
+.card_date p {
+    font-weight: 700;
+    line-height: 16.97px;
+    color: var(--white-color);
+    margin-bottom: 0;
+
+}
+
+.card_detail_text {
+    gap: 7px;
+}
+
+.card_detail_text p {
+    color: var(--orange-color);
+    margin-bottom: 0;
+}
+
+.card_detail_text h5 {
+    color: #000;
+    margin-bottom: 0;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+}
+
+.card_bottom img {
+    width: 100%;
+    height: auto;
+    /* aspect-ratio: 19 / 10; */
+    object-fit: cover;
+}
+
+.card_bottom.non_active button {
+    background-color: transparent;
+    color: var(--orange-color);
+    padding-left: 0;
+}
+
+.card_bottom.non_active button svg {
+    color: var(--orange-color);
+}
+
+.card_bottom button {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width:1280px) {
+
+    .card_detail {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .card_date {
+        padding: 12px 18px;
+    }
+
+    .card_detail_text h5 {
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 1px;
+
+    }
+
+
+    .card_date h5 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .card_date p {
+        line-height: 16.97px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+    .card_detail {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .card_date {
+        padding: 12px 18px;
+    }
+
+    .card_detail_text h5 {
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 1px;
+
+    }
+
+    .card_detail_text p {
+        font-size: 12px;
+    }
+
+    .card_date h5 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .card_date p {
+        line-height: 16.97px;
+        font-size: 12px;
+    }
+}

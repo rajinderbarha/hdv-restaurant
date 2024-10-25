@@ -7,6 +7,7 @@ import Salad_icon from '@/assets/image/Salad_icon.svg'
 import pasta_icon from '@/assets/image/pasta_icon.svg'
 import menu_image from '@/assets/image/menu.png'
 import style from './HomeRestaurantMenu.module.css'
+// import RestaurantMenuBook from '../RestaurantMenuBook'
 
 const HomeRestaurantMenu = () => {
     return (
@@ -45,6 +46,7 @@ const HomeRestaurantMenu = () => {
             <div className="tab-content" id="pills-tabContent">
                 <div className="tab-pane fade show active" id="pills-appetizers" role="tabpanel" aria-labelledby="pills-appetizers-tab" tabIndex={0}><Image src={menu_image} alt='menu' /></div>
                 <div className="tab-pane fade" id="pills-salad" role="tabpanel" aria-labelledby="pills-salad-tab" tabIndex={0}><Image src={menu_image} alt='menu' /></div>
+                {/* <div className="tab-pane fade" id="pills-salad" role="tabpanel" aria-labelledby="pills-salad-tab" tabIndex={0}><RestaurantMenuBook /></div> */}
                 <div className="tab-pane fade" id="pills-main-course" role="tabpanel" aria-labelledby="pills-main-course-tab" tabIndex={0}><Image src={menu_image} alt='menu' /></div>
                 <div className="tab-pane fade" id="pills-pasta" role="tabpanel" aria-labelledby="pills-pasta-tab" tabIndex={0}><Image src={menu_image} alt='menu' /></div>
                 <div className="tab-pane fade" id="pills-dessert" role="tabpanel" aria-labelledby="pills-dessert-tab" tabIndex={0}><Image src={menu_image} alt='menu' /></div>

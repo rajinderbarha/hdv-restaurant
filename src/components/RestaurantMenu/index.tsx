@@ -20,7 +20,6 @@ const RestaurantMenu = () => {
             <div className="outer-spacing">
                 <div className="custom-container">
                     <div className={`${style.all_menus}`}>
-
                         <HomeRestaurantMenu />
                     </div>
                 </div>

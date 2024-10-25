@@ -1,0 +1,18 @@
+.RestaurantMenuBook {
+    background-image: url('../../assets/image/RestaurantMenuBook_bg_image.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 50px;
+}
+
+.book_tag {
+    gap: 16px;
+}
+
+.book_tag h5 {
+    color: var(--orange-red);
+    font-family: Cormorant;
+    font-weight: 600;
+
+}
