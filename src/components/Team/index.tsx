@@ -27,9 +27,9 @@ const Team = () => {
 
                             </div> */}
                             <div className="d-flex flex-row gap-3 flex-wrap flex-lg-nowrap justify-content-center">
-                                <div className={`${style.card_div} ${style.card_div1}`}> <TeamCard /></div>
-                                <div className={`${style.card_div} ${style.card_div2}`}> <TeamCard /></div>
-                                <div className={`${style.card_div} ${style.card_div3}`}> <TeamCard /></div>
+                                <div className={`${style.card_div} ${style.card_div1}`}> <TeamCard name="Chester Rodrigues " imgName="chef_image.png" position="chef" /></div>
+                                <div className={`${style.card_div} ${style.card_div2}`}> <TeamCard name="Chester Rodrigues " imgName="chef_image1.png" position="chef" /></div>
+                                <div className={`${style.card_div} ${style.card_div3}`}> <TeamCard name="Chester Rodrigues " imgName="chef_image2.png" position="chef" /></div>
                                 {/* <TeamCard />
                                 <TeamCard />
                                 <TeamCard /> */}

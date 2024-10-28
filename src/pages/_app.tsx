@@ -3,6 +3,8 @@ import type { AppProps } from "next/app";
 import { useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from "@/components/Layout";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
 

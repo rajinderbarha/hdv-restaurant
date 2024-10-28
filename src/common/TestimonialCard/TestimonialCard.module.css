@@ -2,6 +2,11 @@
     padding: 46px 30px 36px 30px;
     background-color: #293146;
     max-width: 410px;
+    transition: all 0.3s ease;
+}
+
+.card_container img {
+    margin: 0 auto;
 }
 
 .card {
@@ -11,6 +16,7 @@
 }
 
 .quotes {
+
     /* max-width: 40px; */
 }
 
@@ -41,4 +47,28 @@
 .profile p {
     color: var(--orange-color);
     margin-bottom: 0;
+}
+
+.card_container:hover {
+    background-color: var(--orange-color);
+    transition: all 0.3s ease;
+}
+
+.card_container .quotes_hover {
+    display: none;
+}
+
+.card_container:hover .quotes_hover {
+    display: block;
+}
+
+.card_container:hover .quotes_simple {
+    display: none;
+}
+
+
+@media (max-width:576px) {
+    .card_container {
+        max-width: 100%;
+    }
 }

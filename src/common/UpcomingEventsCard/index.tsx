@@ -7,7 +7,7 @@ const UpcomingEventsCard = () => {
     return (
         <>
             <div className={`${style.UpcomingEventsCard_container}`}>
-                <div className={`${style.Card_conatiner} `}>
+                <div className={`${style.Card_container} `}>
                     <div className={`${style.card_detail} hstack align-items-start`}>
                         <div className={`${style.card_date} text-center`}>
                             <h5>14</h5>

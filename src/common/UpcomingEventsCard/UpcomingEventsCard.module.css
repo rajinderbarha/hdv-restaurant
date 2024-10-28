@@ -1,9 +1,10 @@
 .card_date {
     background-color: #293146;
     padding: 17px 25px;
+    transition: all 0.3s ease;
 }
 
-.card_date.active {
+.Card_container:hover .card_date {
     background-color: var(--orange-color);
 
 }
@@ -60,11 +61,24 @@
 .card_bottom.non_active button {
     background-color: transparent;
     color: var(--orange-color);
+    transition: all 0.3s ease;
     padding-left: 0;
 }
 
 .card_bottom.non_active button svg {
     color: var(--orange-color);
+    transition: all 0.3s ease;
+}
+
+.Card_container:hover .card_bottom.non_active button svg {
+    color: var(--white-color);
+}
+
+.Card_container:hover .card_bottom.non_active button {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    padding-left: 30px;
+
 }
 
 .card_bottom button {

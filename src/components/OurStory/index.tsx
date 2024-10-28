@@ -11,13 +11,13 @@ const OurStory = () => {
     return (
         <>
             <section className={`OurStory ${style.OurStory}`}>
-                <div className="outer-spacing">
-                    <div className="custom-container">
-                        <ImageTextContainer imageSrc="our_story_image.png" title="Good Food, Drinks & Company." tag="OUR STORY" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. " btnLabel="Explore More"
-                            hasPrice={false} prevPrice="" nextPrice="" />
+                {/* <div className="outer-spacing"> */}
+                {/* <div className="custom-container"> */}
+                <ImageTextContainer imageSrc="our_story_image.png" title="Good Food, Drinks & Company." tag="OUR STORY" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. " btnLabel="Explore More"
+                    hasPrice={false} prevPrice="" nextPrice="" />
 
-                    </div>
-                </div>
+                {/* </div> */}
+                {/* </div> */}
             </section>
 
         </>

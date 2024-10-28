@@ -7,6 +7,15 @@
     letter-spacing: 1px;
     margin: 0 auto;
     width: 100%;
+    text-transform: uppercase;
+}
+
+.tab_content {
+    background-image: url('../../assets/image/RestaurantMenuBook_bg_image.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -4px;
 }
 
 .menu_list {
@@ -22,8 +31,52 @@
     color: var(--white-color);
 }
 
-.menu_list button img {
+.menu_list button svg {
     margin-bottom: 10px;
+}
+
+.menu_list button svg path {
+    fill: #FFAC96;
+}
+
+.menu_list button.tab_btns[aria-selected="true"] svg path {
+
+    fill: var(--orange-color);
+}
+
+
+
+.menu_list li:has(button.tab_btns) {
+    border-bottom: 4px solid transparent !important;
+}
+
+.menu_list li:has(button.tab_btns[aria-selected="true"]) {
+    border-bottom: 4px solid var(--orange-color) !important;
+}
+
+.menu_list button.tab_btns[aria-selected="true"] {
+    color: var(--white-color);
+}
+
+@media screen and (max-width:1200px) {
+    .menu_list button {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .menu_list button svg {
+        margin-bottom: 5px;
+        width: 48px;
+    }
+
+    .menu_list button svg {
+        margin-bottom: 10px;
+        width: 48px;
+    }
+
+    .menu_list {
+        gap: 4px;
+    }
 }
 
 @media screen and (max-width:1024px) {
@@ -33,7 +86,7 @@
 }
 
 @media screen and (max-width:767px) {
-    .menu_list button img {
+    .menu_list button svg {
         width: 48px;
         margin-bottom: 8px;
     }
@@ -47,4 +100,25 @@
         width: 120px;
     }
 
+}
+
+@media screen and (max-width:730px) {
+    .menu_list button {
+
+        padding: 5px 5px;
+    }
+
+    .menu_list li {
+        width: 90px;
+    }
+
+    .menu_list button svg {
+        width: 41px;
+        margin-bottom: 5px;
+    }
+
+    .menu_list button {
+        font-size: 12px;
+        line-height: 18px;
+    }
 }

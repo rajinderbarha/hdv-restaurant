@@ -3,7 +3,33 @@ import style from './Feedback.module.css'
 import divider from '@/assets/image/restaurant_menu_svg.svg'
 import Image from 'next/image'
 import TestimonialCard from '@/common/TestimonialCard'
+import Slider from "react-slick";
 const Feedback = () => {
+    const settings = {
+        dots: false,
+        arrows: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 992, // screens smaller than 992px
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 576, // screens smaller than 576px
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false, // optional: hide arrows on extra small screens
+                }
+            }
+        ]
+    };
 
     return (
         <>
@@ -19,12 +45,32 @@ const Feedback = () => {
                             {/* <div className={`${style.Feedback_card_container}`}>
                                
                         </div> */}
-                            <div className="hstack gap-3 flex-wrap justify-content-center">
+                            <div className={`${style.slider_container}`}>
 
-                                <TestimonialCard />
-                                <TestimonialCard />
-                                <TestimonialCard />
+                                <Slider {...settings}>
+                                    <div className={`${style.slider_card}`}>
+                                        <TestimonialCard />
+                                    </div>
+                                    <div className={`${style.slider_card}`}>
+                                        <TestimonialCard />
+                                    </div>
+                                    <div className={`${style.slider_card}`}>
+                                        <TestimonialCard />
+                                    </div>
+                                    <div className={`${style.slider_card}`}>
+                                        <TestimonialCard />
+                                    </div>
+                                    <div className={`${style.slider_card}`}>
+                                        <TestimonialCard />
+                                    </div>
+                                </Slider>
                             </div>
+
+                            {/* <div className="hstack gap-3 flex-wrap justify-content-center">
+                            <TestimonialCard />
+                                <TestimonialCard />
+                                <TestimonialCard />
+                            </div> */}
                         </div>
                     </div>
                 </div>

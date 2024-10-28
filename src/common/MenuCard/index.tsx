@@ -12,16 +12,16 @@ const MenuCard = () => {
                 <div className={`${style.menu_card_content} d-flex justify-content-between w-100`}>
 
                     <div className={`${style.menu_card_text}`}>
-                        <h6>Roast Chicken (4 Sticks)</h6>
+                        <h6 className=''>Roast Chicken (4 Sticks)</h6>
                         <p>Chicken / Veggies / Shoyu</p>
                     </div>
                     <div className={`${style.menu_card_price_btn}`}>
 
-                        <div className={`${style.menu_card_price} d-flex`}>
+                        <div className={`${style.menu_card_price} d-flex justify-content-end`}>
                             <p className='mb-0'>......</p>
                             <h5>$17.50</h5>
                         </div>
-                        <button className={`${style.menu_card_btn} navbar_btn`}>Order now</button>
+                        <button className={`${style.menu_card_btn} navbar_btn `}>Order now</button>
                     </div>
                 </div>
             </div>

@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 1280px) {
     .menu_icon {
-        margin-right: 20px;
+        margin-right: 0px;
     }
 
     .navbar_logo {

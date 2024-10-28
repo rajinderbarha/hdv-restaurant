@@ -1,18 +1,35 @@
 .RestaurantMenuBook {
-    background-image: url('../../assets/image/RestaurantMenuBook_bg_image.png');
+    /* background-image: url('../../assets/image/RestaurantMenuBook_bg_image.png');
     background-position: top;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     padding: 70px 50px;
 }
 
-.book_tag {
-    gap: 16px;
+
+
+.RestaurantMenuBook div[data-contain="menu-content"]:not(:last-child) {
+    margin-bottom: 74px;
 }
 
-.book_tag h5 {
-    color: var(--orange-red);
-    font-family: Cormorant;
-    font-weight: 600;
+@media (max-width:1024px) {
+    .RestaurantMenuBook {
+        padding: 50px 20px;
+    }
+
+    .RestaurantMenuBook div[data-contain="menu-content"]:not(:last-child) {
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width:500px) {
+    .RestaurantMenuBook {
+        padding: 39px 12px;
+    }
+
+    .RestaurantMenuBook div[data-contain="menu-content"]:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
 
 }

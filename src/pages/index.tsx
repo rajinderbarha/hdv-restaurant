@@ -1,3 +1,4 @@
+
 import DishesModule from "@/components/DishesModule";
 import Feedback from "@/components/Feedback";
 import HeroSection from "@/components/HeroSection";
