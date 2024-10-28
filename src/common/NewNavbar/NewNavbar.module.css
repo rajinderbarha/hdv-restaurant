@@ -1,0 +1,39 @@
+.navbar {
+    background-color: var(--white-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+
+.navbar_logo {
+    /* width: fit-content; */
+}
+
+@media screen and (max-width: 1280px) {
+
+    .navbar_logo {
+        width: 70px;
+        height: 81px;
+    }
+
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .mobile_nav_logo img {
+        height: 100%;
+    }
+
+    .navbar_logo {
+        width: 60px;
+        height: 60px;
+    }
+}
