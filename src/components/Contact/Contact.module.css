@@ -1,4 +1,4 @@
-.team_content_text h2 {
+.contactus_heading h2 {
     color: #000;
     margin-bottom: 17px;
     text-transform: uppercase;
@@ -6,4 +6,5 @@
 
 .Contact {
     padding-top: 86px;
+    padding-bottom: 82px;
 }

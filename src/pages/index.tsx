@@ -1,6 +1,8 @@
 
+import Contact from "@/components/Contact";
 import DishesModule from "@/components/DishesModule";
 import Feedback from "@/components/Feedback";
+import Gallery from "@/components/Gallery";
 import HeroSection from "@/components/HeroSection";
 // import OnlineReservation from "@/components/OnlineReservation";
 import OurStory from "@/components/OurStory";
@@ -19,7 +21,10 @@ export default function Home() {
       <Feedback />
       <Team />
       {/* <OnlineReservation /> */}
+
       <UpcomingEvents />
+      <Gallery />
+      <Contact />
     </>
   )
 }
