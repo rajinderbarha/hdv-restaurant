@@ -1,0 +1,34 @@
+.scroll_to_top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    /* bottom: 120px;
+    right: 40px; */
+    padding: 18px;
+    display: flex;
+    font-size: 24px;
+    background-color: var(--orange-color);
+    color: white;
+    border: 0;
+    cursor: pointer;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+
+@media (max-width:1024px) {
+    .scroll_to_top {
+        /* bottom: 1rem;
+        right: 1rem; */
+        padding: 15px;
+        font-size: 18px;
+
+    }
+}
+
+@media (max-width:600px) {
+    .scroll_to_top {
+        padding: 12px;
+        font-size: 15px;
+
+    }
+}

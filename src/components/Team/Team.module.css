@@ -51,6 +51,10 @@
     /* margin-right: auto; */
 }
 
+.card_layout {
+    gap: 30px;
+}
+
 @media screen and (max-width:1050px) {
     .top_right_photo {
         top: -15vw;
@@ -60,8 +64,16 @@
     .bottom_left_photo {
         bottom: -102px;
         width: 20%;
+    }
 
+    .card_layout {
+        gap: 20px;
+    }
+}
 
+@media screen and (max-width:991px) {
+    .card_layout {
+        gap: 20px;
     }
 }
 
@@ -75,6 +87,10 @@
         bottom: -106px;
         width: 23%;
     }
+
+    .card_layout {
+        gap: 15px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -86,5 +102,9 @@
     .bottom_left_photo {
         bottom: -71px;
         width: 29%;
+    }
+
+    .card_layout {
+        gap: 15px;
     }
 }

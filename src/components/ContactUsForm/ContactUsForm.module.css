@@ -99,6 +99,7 @@
     }
 
 
+
 }
 
 @media screen and (max-width:1050px) {
@@ -129,9 +130,16 @@
         margin-left: 25px;
         margin-right: 25px;
     }
+
+
 }
 
 @media screen and (max-width:600px) {
+    .contact_us_image {
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+
     .form_container h3 {
         font-size: 30px;
         line-height: 40px;

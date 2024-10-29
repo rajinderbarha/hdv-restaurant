@@ -16,7 +16,7 @@ const Gallery = () => {
         <>
             <section className={`${style.Gallery} Gallery`}>
                 <div className="outer-spacing">
-                    <div className="contact-container">
+                    <div className="main-container">
                         <div className={`${style.gallery_content}`}>
 
                             <div className={`${style.gallery_heading} text-center`}>

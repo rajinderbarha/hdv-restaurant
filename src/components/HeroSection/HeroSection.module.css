@@ -11,7 +11,7 @@
     background-size: cover;
     background-position: top;
     padding: 100px 0;
-    min-height: calc(100vh - 136px);
+    min-height: calc(100vh - 127px);
 }
 
 .hero_content button {
@@ -46,6 +46,13 @@
         background-size: cover;
         background-position: top;
         padding: 100px 0;
+        min-height: calc(100vh - 91px);
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .HeroSection {
         min-height: calc(100vh - 70px);
     }
 }

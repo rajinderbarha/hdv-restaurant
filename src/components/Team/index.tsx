@@ -12,7 +12,7 @@ const Team = () => {
             <Image src={top_right_photo} alt="image" className={`${style.top_right_photo}`} />
             {/* </div> */}
             <div className="outer-spacing">
-                <div className="custom-container">
+                <div className="main-container">
                     <div className={`${style.team_content} `}>
                         <div className={`${style.team_content_text} text-center`}>
                             <h6 className='mb-0'>Amazing Team</h6>
@@ -26,7 +26,7 @@ const Team = () => {
                                 <div className="col-lg-3"><div className={`${style.card_div} ${style.card_div3}`}> <TeamCard /></div></div>
 
                             </div> */}
-                            <div className="d-flex flex-row gap-3 flex-wrap flex-lg-nowrap justify-content-center">
+                            <div className={`${style.card_layout} d-flex flex-row gap-3 flex-wrap flex-lg-nowrap justify-content-center`}>
                                 <div className={`${style.card_div} ${style.card_div1}`}> <TeamCard name="Walter White " imgName="chef_image.png" position="Master Chef" /></div>
                                 <div className={`${style.card_div} ${style.card_div2}`}> <TeamCard name="Chester Rodrigues " imgName="chef_image1.png" position="chef" /></div>
                                 <div className={`${style.card_div} ${style.card_div3}`}> <TeamCard name="William Anderson " imgName="chef_image2.png" position="Cook" /></div>
