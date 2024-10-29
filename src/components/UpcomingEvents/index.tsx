@@ -9,7 +9,7 @@ const UpcomingEvents = () => {
 
             <section className={`${style.UpcomingEvents} UpcomingEvents`}>
                 <div className="outer-spacing">
-                    <div className="custom-container">
+                    <div className="main-container">
                         <div className={`${style.UpcomingEvents_content} text-center`}>
                             {/* <h6 className='mb-0'>From Blog</h6> */}
                             <h2>Upcoming Events</h2>

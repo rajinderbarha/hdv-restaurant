@@ -8,7 +8,7 @@ const Contact = () => {
         <>
             <section className={`${style.Contact} Contact`}>
                 <div className="outer-spacing">
-                    <div className="contact-container">
+                    <div className="main-container">
                         <div className={`${style.contactus_content}`}>
 
                             <div className={`${style.contactus_heading} text-center`}>

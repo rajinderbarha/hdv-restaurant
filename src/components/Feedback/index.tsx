@@ -35,7 +35,7 @@ const Feedback = () => {
         <>
             <section className={`${style.Feedback} Feedback`}>
                 <div className="outer-spacing">
-                    <div className="custom-container">
+                    <div className="main-container">
                         <div className={`${style.Feedback_content} `}>
                             <div className={`${style.Feedback_content_text} text-center`}>
                                 <h6 className='mb-0'>Happy customer</h6>

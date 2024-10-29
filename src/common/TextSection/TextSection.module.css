@@ -9,6 +9,7 @@
 
 .our_story_heading_tag h6 {
     color: var(--orange-red);
+    text-transform: uppercase;
 }
 
 .our_story_text h2 {

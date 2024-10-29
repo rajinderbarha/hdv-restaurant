@@ -47,6 +47,7 @@
 .profile p {
     color: var(--orange-color);
     margin-bottom: 0;
+    transition: all 0.3s ease;
 }
 
 .card_container:hover {
@@ -64,6 +65,10 @@
 
 .card_container:hover .quotes_simple {
     display: none;
+}
+
+.card_container:hover .profile p {
+    color: var(--white-color);
 }
 
 
