@@ -128,3 +128,48 @@
         gap: 14px;
     }
 }
+
+
+
+@media (min-width: 576px) and (max-width: 650px) {
+
+    .profile_content h4 {
+        font-size: 29px;
+        line-height: 30px;
+    }
+
+    .profile_content p {
+        font-size: 12px;
+        line-height: 19px;
+        letter-spacing: 2px;
+    }
+
+
+    .profile_content {
+        padding: 44px 0 47px 0;
+        height: 129px;
+        gap: 11px;
+    }
+
+    .team_card_conatiner:hover .profile_content {
+        height: 180px;
+    }
+
+    .profile_content {
+        padding: 28px 0 31px 0;
+        gap: 6px;
+    }
+
+    .social_content {
+        gap: 6px;
+    }
+
+    .social_links svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .social_links div {
+        padding: 4px;
+    }
+}
