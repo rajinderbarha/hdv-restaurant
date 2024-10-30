@@ -40,7 +40,7 @@ const ImageTextContainer = ({ imageSrc, title, tag, description, btnLabel, hasPr
         <>
             {/* <section className={`OurStory ${style.OurStory}`}> */}
             <div className="outer-spacing">
-                <div className="custom-container">
+                <div className="custom-container" data-contain="container">
                     <div className={`${style.img_text_content}`}>
                         <div className={`row align-items-center flex-column-reverse flex-md-row ${style.img_text_layout}`} data-contain="layout">
                             <div className="col-md-6">

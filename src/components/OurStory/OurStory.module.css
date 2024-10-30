@@ -14,7 +14,9 @@
     row-gap: 50px;
 } */
 
-
+.OurStory div[data-contain="container"] {
+    max-width: 1290px;
+}
 
 
 @media screen and (max-width:600px) {
