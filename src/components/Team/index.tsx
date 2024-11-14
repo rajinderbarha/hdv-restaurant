@@ -29,8 +29,8 @@ const Team = () => {
                             <div className={`${style.card_layout} `}>
                                 <div className={`${style.card_layout1} row `}>
                                     <div className="col-lg-4 col-sm-6"><TeamCard name="Walter White " imgName="chef_image.png" position="Master Chef" /></div>
-                                    <div className="col-lg-4 col-sm-6"><TeamCard name="Walter White " imgName="chef_image.png" position="Master Chef" /></div>
-                                    <div className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"><TeamCard name="Walter White " imgName="chef_image.png" position="Master Chef" /></div>
+                                    <div className="col-lg-4 col-sm-6"><TeamCard name="Chester Rodrigues " imgName="chef_image1.png" position="chef" /></div>
+                                    <div className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"><TeamCard name="William Anderson " imgName="chef_image2.png" position="Cook" /></div>
                                 </div> <br />
                             </div>
                             {/* <div className={`${style.card_layout} d-flex flex-row  flex-wrap flex-lg-nowrap justify-content-center`}>
